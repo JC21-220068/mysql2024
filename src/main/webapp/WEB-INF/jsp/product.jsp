@@ -12,6 +12,7 @@
 <% ArrayList<String[]> result2 = (ArrayList<String[]>) request.getAttribute("result2"); %>
 
 <body>
+	<h1>メーカー一覧</h1>
 	<FORM METHOD="GET" ACTION="./item">
 		<SELECT NAME="maker_code">
 
@@ -24,6 +25,7 @@
 		</SELECT> 
 		<INPUT TYPE="SUBMIT" VALUE="絞り込む" />
 	</FORM>	
+	<h1>商品一覧</h1>
 		<table border="1">
 			<tr>
 				<td>JANコード</td>
